@@ -24,7 +24,7 @@ public class AllStrategiesExampleBean implements InitializingBean  {
     public void postConstruct() {
         LOG.info("PostConstruct");
     }
-	
+	//////////////////////////////test2/////////////////////////////////////////////////
 	@Bean
 	public void init() {
         LOG.info("init-method");
